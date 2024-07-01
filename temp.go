@@ -56,7 +56,7 @@ func main1() {
             })
         }
 
-        todo.ID = len(todos) + 1
+        // todo.ID = len(todos) + 1
         todos = append(todos, *todo)
 
         return c.Status(201).JSON(todo)
